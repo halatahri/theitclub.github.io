@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url("images/code.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    background: rgba(255,255,255, .9);
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+    height: 50px;
+}
+
+#transbox {
+    color: black;
+    background: white;
+    margin: 100px auto;
+    padding: 25px;
+    height: 40%;
+    width: 70%;
+}
+
+footer {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 40px;
+    background-color: rgba(255,255,255, .9);
+    color: #7272ff; 
+}
+
+.site-content {
+    flex: 1;
+}
+
+.intro {
+    margin: 10px;
+}
+
+.ar {
+    display: flex; 
+    font-family: "Changa";
+    justify-content: right;
+}
+
+.en {
+    line-height: 1.5;
+}
+
+.code {
+    width: 100px;
+}
+
+.coding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.btn-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.btn-prl {
+    font-family: "Changa";
+    cursor: pointer;
+    border: 1px solid #7272ff;
+    background-color: white;
+    color: #7272ff; 
+    font-size: .8em;
+    padding: 15px 20px;
+}
+
+.btn-prl:hover {
+    color: white;
+    background-color:#7272ff; 
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+      font-size: .8em;
+    }
+  }

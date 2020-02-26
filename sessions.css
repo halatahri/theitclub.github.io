@@ -1,0 +1,37 @@
+body {
+    background: #ffffff;
+    font-family: "Changa", "Helvetica", "Arial", sans-serif;
+}
+
+nav ul {
+    background: rgba(0,0,0,.2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    margin: 15px 50px;
+}
+
+.list-head {
+    list-style: none;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.em-list {
+    font-size: 1.1em;
+    margin: -2px 50px;
+}
+
+a {
+    color: #D36950;
+    text-decoration: none;
+}
+
+a.pdf {
+    color: #7272ff;
+}
