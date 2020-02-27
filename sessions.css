@@ -17,6 +17,8 @@ main {
 }
 
 .list-head {
+    display: flex;
+    justify-content: right;
     list-style: none;
     font-size: 1.3em;
     margin-bottom: 15px;
@@ -34,4 +36,25 @@ a {
 
 a.pdf {
     color: #7272ff;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
 }
